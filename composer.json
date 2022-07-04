@@ -1,0 +1,36 @@
+{
+    "name": "cognitivyspace/coinpayments",
+    "description": "Coinpayments SDK for Laravel",
+    "type": "library",
+    "keywords": ["laravel", "lumen", "coinpayments"],
+    "homepage": "https://github.com/cognitivyspace/coinpayments",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CognitivySpace\\Coinpayments\\": "src/cognitivyspace/coinpayments/"
+        },
+        "files": [
+            "src/cognitivyspace/Coinpayments/Helpers/helpers.php",
+            "src/cognitivyspace/Coinpayments/Helpers/constants.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Cognitivy Space",
+            "email": "suporte@cognitivy.space"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5",
+        "doctrine/dbal": "^2.6",
+        "cognitivyspace/lpsp": "^1.0"
+    },
+    "require-dev": {},
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
