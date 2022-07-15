@@ -10,8 +10,8 @@
             "CognitivySpace\\Coinpayments\\": "src/cognitivyspace/coinpayments/"
         },
         "files": [
-            "src/cognitivyspace/Coinpayments/Helpers/helpers.php",
-            "src/cognitivyspace/Coinpayments/Helpers/constants.php"
+            "src/cognitivyspace/coinpayments/Helpers/helpers.php",
+            "src/cognitivyspace/coinpayments/Helpers/constants.php"
         ]
     },
     "authors": [
